@@ -75,6 +75,7 @@ public class IntrplTriangle implements DrawbleObj {
     public void paint(GraphicsContext graphicsContext) {
         final PixelWriter pixelWriter = graphicsContext.getPixelWriter();
 
+
         for (int py = Rectangle[1]; py <= Rectangle[3]; py++) {
             for (int px = Rectangle[0]; px <= Rectangle[2]; px++) {
                 w1 = getW1(A[0], A[1], B[0], B[1], C[0], C[1], det, px, py);
